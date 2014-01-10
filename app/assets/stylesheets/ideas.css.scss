@@ -4,4 +4,17 @@
 .container a:hover { color: #f55e55; text-decoration: none;
 background-color: rgba(255, 255, 255, 0); } 
 
-.container input[type="submit"] { height: 30px; font-size: 13px; background-color: #f55e55; border: none; color: #fff; }
+.container a:active
+{
+background-color:yellow;
+}
+
+.container input[type="submit"], input[type="file"] { 
+	height: 28px; 
+	font-size: 13px; 
+	background-color: #f55e55; 
+	border: none; 
+	color: #fff; 
+	border-radius: 10px;
+	box-shadow: 5px 5px lightgray;
+}
